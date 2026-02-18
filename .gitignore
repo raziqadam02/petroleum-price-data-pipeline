@@ -1,5 +1,36 @@
-venv/
-__pycache/
+#python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
+*.pdb
+*.egg-info/
+*.egg
 *.log
+
+# virtualenvironment
+venv/
+ENV/
+env/
 .env
+
+
+.vscode/
+
+# docker
+*.dockerfile
+docker-compose.override.yml
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# jupyter
+.ipynb_checkpoints/
+
+# logs/temp
+*.log
+*.tmp
+*.temp
